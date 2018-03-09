@@ -20,11 +20,7 @@ class ControlException(Exception):
 
 class Control():
     def __init__(self, username, password):
-        print("------------------------------------------------------")
-        print("-                    SIRI CONTROL                    -")
-        print("-           Created by Sanjeet Chatterjee            -")
-        print("-      Website: thereallycoolstuff.wordpress.com     -")
-        print("------------------------------------------------------")
+        print("-------------------START--------------\n")
 
         try:
             self.last_checked = -1
